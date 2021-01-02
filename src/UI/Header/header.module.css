@@ -1,0 +1,16 @@
+.upper
+{
+  display: flex;
+  justify-content: space-between;
+  border-width: thin;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  margin-bottom: 3%;
+}
+
+.upperright
+{
+  display: flex;
+  width:22.2%;
+  justify-content: space-between;
+}

@@ -1,0 +1,118 @@
+.App 
+{
+  padding: 4%;
+  color:darkgrey;
+}
+
+.appdiv
+{
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+
+
+.left
+{
+  width:70%;
+}
+
+
+
+.down
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightdown
+{
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.downleft
+{
+  width:60%;
+}
+
+.downright
+{
+  display: flex;
+  width:25%;
+  justify-content: space-between;
+}
+
+.mybutton
+{
+    border:none;
+    background: none;
+    color: darkgrey;
+    font-size: larger;
+}
+
+.quantity
+{
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: thin;
+  width:80%;
+  height:80%;
+  text-align: center;
+}
+
+.middown
+{
+  display: flex;
+  justify-content: space-between;
+  width:35%;
+}
+.mydiv
+{
+    border-style:solid;
+    border-width: thin;
+    border-color:darkgrey;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin-bottom: 2%;
+}
+
+
+.mydiv2
+{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    width:75%;
+}
+
+.myimage
+{
+    margin-left:2%;
+    margin-right:3%;
+}
+
+.mybutton
+{
+    border:none;
+    background: none;
+    color: darkgrey;
+}
+
+
+@media only screen and (max-width: 1100px) 
+{
+  .appdiv
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .left
+  {
+    width:100%;
+  }
+}
